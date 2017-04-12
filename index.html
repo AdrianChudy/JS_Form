@@ -10,12 +10,18 @@
     </head>
     <body>
         <form id="form" method="GET">
-            <input type="text" name="text" placeholder="Co słychać?">
-            Link do obrazka <input type="text" name="imglink">
-            <input type="submit" value="Opublikuj">
+            <div><span>Utwórz Post</span><img src="img/cancel-button.png"></div>
+            <img id="profile_picture"src="img/a_chudy.jpg">
+            <input id="post_content" type="text" name="text" placeholder="Co słychać?">
+            <p>Dodaj link zdjęcia:</p><input id="link" type="text" name="imglink">
+            <input id="publish" type="submit" value="Opublikuj">
         </form>
         <div id="post">
-            <img src="" alt="Obraz podany przez użytkownika">
+            <img id="profile_picture"src="img/a_chudy.jpg"><span> użytkownik: Adrian dodał nowy post.</span>
+            <p>data dodania: 12.04.2017r.</p>
+            <p name="text"></p>
+            <img name="imglink" src="" alt="Zdjęcie dodane przez użytkownika">
+            <img id="facebook_like_icon" src="img/facebook_like_icon.png">
         </div>
         <script src="main.js"></script>
     </body>
