@@ -131,14 +131,14 @@ color: lightgrey;
     font-family: cursive;
     font-size: 1.2rem;
 }
-#post p {
+#date {
     margin: 0;
     margin-left:0.9rem;
     font-size: 0.7rem;
     color: #8ECBDE;
     font-weight: bold;
 }
-#post p[name="text"] {
+#post_text {
     color: black;
     font-size: 1rem;
     font-weight: 100;
@@ -148,7 +148,7 @@ color: lightgrey;
     width: 80%;
     margin-top: 1rem;
 }
-#post img[name="imglink"] {
+#post_imglink {
     width: 80%;
     margin-top: 1rem;
     margin-left: auto;
